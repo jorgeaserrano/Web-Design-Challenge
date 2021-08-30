@@ -1,3 +1,7 @@
+
+# Web Visualization Dashboard
+# Link to the website:
+
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
 ## Background
