@@ -1,6 +1,6 @@
 
 # Web Visualization Dashboard
-# Link to the website:
+# Link to the website: file:///Users/jorgeaserrano/Desktop/smu2/smu-dal-data-pt-06-2021-u-c/02-Homework/11-Web/Instructions_serrano/index.html
 
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
