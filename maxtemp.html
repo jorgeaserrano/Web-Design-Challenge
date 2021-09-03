@@ -1,0 +1,92 @@
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+
+<!-- Bootstrap and Bootswatch CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<!-- Navigation bar -->
+  <div class = "container-fluid">
+    
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">City Latitud vs Maximum Temperature</a>
+    </div>
+      
+    <ul class="nav navbar-nav navbar-right">
+      <li role="presentation" class="dropdown">
+        <a class="dropdown-toggle" role="button" aria-expanded="false" aria-haspopup="true" href="#" data-toggle="dropdown"> 
+          Plots <span class="caret"></span> 
+        </a>
+        <ul class="dropdown-menu">
+          <li alig=center><strong>--Select the category--</strong></li> 
+          <li role="separator" class="divider"></li>
+          <li><a href="temperature.html">Max.Temperature (&deg;F)</a></li>
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+          <li><a href="windspeed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li role="presentation">
+        <a href="comparisons.html">
+            <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+            Comparisons
+          </a>
+        </li>
+      <li role="presentation">
+        <a href="data.html">
+          <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+          Data
+        </a>
+      </li>
+    </ul> 
+</div>
+
+<hr> 
+ <!-- End of navbar -->
+
+<!-- Start of container -->
+<div class="row">
+  <div class="col-md-12">
+      <div class="description-content">
+        <p class="text-justify"> Countries on or near the equator don’t experience the exact same weather. Whilst the temperatures remain high, some countries experience wet and dry seasons. Countries on, or near, the equator have high temperatures all year round due to the tilt of the Earth’s axis.</p>
+        <P class="text justify">
+        </P>
+
+
+        <div class="container">
+            <div class="row">
+              <div class="span4"></div>
+              <div class="span4"><img class="center-block" src="Resources/images/download.png" /></div>
+              <div class="span4"></div>
+            </div>
+          </div>
+        
+        <P class="text justify">
+            </P>
+
+    <p>As expected, the weather becomes signficantly warmer as one approaches the equator (0 deg. latitude). Due to the tilt of the earth's axis at this time of year, the Southern Hemisphere temperatures are warmer than Northern Hemisphere temperatures.</p>
+  </div>
+</div> 
+
+</section>
+</div>
+<!-- End of container -->
+​
+<!-- Start of footer -->
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-dark">
+        <div class="footer-copyright text-center py-3">Web Design Challenge 2021
+        </div>      
+    </footer>
+</body>
+</html>

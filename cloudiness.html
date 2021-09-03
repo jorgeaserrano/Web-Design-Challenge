@@ -1,0 +1,79 @@
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Design Challenge</title>
+
+<!-- Bootstrap and Bootswatch CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<!-- Navigation bar -->
+  <div class = "container-fluid">
+    
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">City Latitude vs Cloudiness</a>
+    </div>
+      
+    <ul class="nav navbar-nav navbar-right">
+      <li role="presentation" class="dropdown">
+        <a class="dropdown-toggle" role="button" aria-expanded="false" aria-haspopup="true" href="#" data-toggle="dropdown"> 
+          Plots <span class="caret"></span> 
+        </a>
+        <ul class="dropdown-menu">
+          <li alig=center><strong>--Select the category--</strong></li> 
+          <li role="separator" class="divider"></li>
+          <li><a href="temperature.html">Max.Temperature (&deg;F)</a></li>
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+          <li><a href="windspeed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li role="presentation">
+        <a href="comparisons.html">
+            <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+            Comparisons
+          </a>
+        </li>
+      <li role="presentation">
+        <a href="data.html">
+          <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+          Data
+        </a>
+      </li>
+    </ul> 
+</div>
+
+<hr> 
+ <!-- End of navbar -->
+
+<!-- Start of container -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="description-content">
+          <p class="text-justify"> These are the result of Hadley cells: winds patterns that blow dry, high-altitude air masses from the equator to the tropics, where they descend, sucking up moisture and preventing cloud formation. On the flip side, the same patterns form a distinct band of cloudiness at the equator.</p>
+          <P class="text justify">
+          </P>
+  
+  
+          <div class="container">
+              <div class="row">
+                <div class="span4"></div>
+                <div class="span4"><img class="center-block" src="Resources/images/download-2.png" /></div>
+                <div class="span4"></div>
+              </div>
+            </div>
+          
+          <P class="text justify">
+              </P>
+  
+      <p>As warm, moist air converges at lower altitudes near the equator, it rises and cools and therefore can hold less moisture. Since air descends between about 15 and 30 degrees north and south of the equator, clouds are rare and deserts are common at this latitude.</p>
+    </div>
+  </div> 

@@ -1,0 +1,114 @@
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+
+<!-- Bootstrap and Bootswatch CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<!-- Navigation bar -->
+  <div class = "container-fluid">
+    
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Web Design Challenge</a>
+    </div>
+      
+    <ul class="nav navbar-nav navbar-right">
+      <li role="presentation" class="dropdown">
+        <a class="dropdown-toggle" role="button" aria-expanded="false" aria-haspopup="true" href="#" data-toggle="dropdown"> 
+          Plots <span class="caret"></span> 
+        </a>
+        <ul class="dropdown-menu">
+          <li alig=center><strong>--Select the category--</strong></li> 
+          <li role="separator" class="divider"></li>
+          <li><a href="temperature.html">Max.Temperature (&deg;F)</a></li>
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+          <li><a href="windspeed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li role="presentation">
+        <a href="comparisons.html">
+            <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+            Comparisons
+          </a>
+        </li>
+      <li role="presentation">
+        <a href="data.html">
+          <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+          Data
+        </a>
+      </li>
+    </ul> 
+</div>
+
+<hr> 
+ <!-- End of navbar -->
+
+<!-- Start of container -->
+<div class="row">
+  <div class="col-md-12">
+      <div class="description-content">
+        <p class="text-justify"> One of the most common misconceptions is that the regions at or near the equator are hotter than the poles because the equator is closer to the sun than 
+        other areas of the earth. Linked to this misconception is another misconception that Earth’s seasons are as a result of the distance of the Earth from 
+        the sun. However, the sun is so far away from the earth that it shines almost equally at the poles and equator. If the sun shines equally in almost all 
+        areas, why are regions around the equator hotter than areas around the poles? Below is an explanation of why equatorial regions are very hot, including 
+        direct vs indirect sunshine, the reflection of sunrays, and atmospheric differences.</p>
+        <P class="text justify">
+        </P>
+
+
+        <div class="container">
+            <div class="row">
+              <div class="span4"></div>
+              <div class="span4"><img class="center-block" src="Resources/images/Fig1.jpg" /></div>
+              <div class="span4"></div>
+            </div>
+          </div>
+        
+        <P class="text justify">
+            </P>
+
+    <p>So, if the same amount of light rays fall on two different surfaces. On one surface, the light rays are directly overhead and concentrated in a specific 
+        area while on the other surface the light rays reach the surface from a slightly slanted angle and spread over a larger area. The effect is that the area 
+        that directly receives light rays over a small area is likely to be hotter than the surface that receives light “indirectly” over a large area. The area 
+        hat receives direct light rays is the equator while the other surface that receives light rays “indirectly” is the polar region.</p>
+
+    <p>The purpose of this project was to answer this question by analyzing weather data points for various cities in relation to their position on the globe.</p>
+
+    <p>In conducting this analysis, data was obtained from the <a href="https://openweathermap.org/">OpenWeatherMap</a>  API of over 500 cities that are situated
+        near the equator. The dataset was originally created using Pandas, Matplotlib and Seaborn Libraries in Python to create the following visualizations:</p>
+  </div>
+</div> 
+<br>
+<div class="row">
+    <div class="col-md-12">
+      <ol>
+        <li><a href="temperature.html">Temperature vs. Latitude (&deg;F)</a></li>
+        <li><a href="humidity.html">Humidity (%) vs Latitude</a></li>
+        <li><a href="cloudiness.html">Cloudiness vs Latitude</a></li>
+        <li><a href="windspeed.html">Wind Speed (mph) vs. Latitude</a></li>
+      </ol>
+        
+    </div>
+</section>
+</div>
+<!-- End of container -->
+​
+<!-- Start of footer -->
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-dark">
+        <div class="footer-copyright text-center py-3">Web Design Challenge 2021
+        </div>      
+    </footer>
+</body>
+</html>
