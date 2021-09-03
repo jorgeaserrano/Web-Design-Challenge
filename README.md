@@ -8,7 +8,7 @@
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-https://drive.google.com/file/d/14hkiJVM36CdaMIxU_9DxOc3bB_YlrLLJ/view?usp=sharing
+![Images/landingResize.png](Images/landingResize.png)
 
 ### Before You Begin
 
