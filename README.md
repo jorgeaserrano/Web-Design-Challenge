@@ -1,6 +1,6 @@
 
 # Web Visualization Dashboard
-# Link to the website:
+# Link to the website: https://github.com/jorgeaserrano/Web-Design-Challenge
 
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
