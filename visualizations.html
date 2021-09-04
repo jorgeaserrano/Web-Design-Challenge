@@ -1,0 +1,92 @@
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+
+<!-- Bootstrap and Bootswatch CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<!-- Navigation bar -->
+  <div class = "container-fluid">
+    
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Visualizations</a>
+    </div>
+      
+    <ul class="nav navbar-nav navbar-right">
+      <li role="presentation" class="dropdown">
+        <a class="dropdown-toggle" role="button" aria-expanded="false" aria-haspopup="true" href="#" data-toggle="dropdown"> 
+          Plots <span class="caret"></span> 
+        </a>
+        <ul class="dropdown-menu">
+          <li alig=center><strong>--Select the category--</strong></li> 
+          <li role="separator" class="divider"></li>
+          <li><a href="temperature.html">Max.Temperature (&deg;F)</a></li>
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+          <li><a href="windspeed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li role="presentation">
+        <a href="comparisons.html">
+            <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+            Comparisons
+          </a>
+        </li>
+      <li role="presentation">
+        <a href="data.html">
+          <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+          Data
+        </a>
+      </li>
+    </ul> 
+</div>
+
+<hr> 
+ <!-- End of navbar -->
+
+<!-- Start of Visualizations imageNav Area -->
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="temperature.html" target="_blank"><img src="Resources/images/download.png">
+                    </div>
+                    <div class="col-md-6">
+                        <a href="humidity.html" target="_blank"><img src="Resources/images/download-1.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="cloudiness.html" target="_blank"><img src="Resources/images/download-2.png">
+                    </div>
+                    <div class="col-md-6">
+                        <a href="wind_speed.html" target="_blank"><img src="Resources/images/download-3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+​
+<!-- Start of footer -->
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-dark">
+        <div class="footer-copyright text-center py-3">Web Design Challenge 2021
+        </div>      
+    </footer>
+</body>
+</html>
